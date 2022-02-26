@@ -1,0 +1,91 @@
+EMPLOYEE MANAGEMENT APPLICTION
+
+add employee      1
+view employees    2
+serach            3
+delete employee   4
+update employee   5
+
+
+coupling
+
+	one class is depedent on other class called tight coupling,and one class is not depedent on other class
+	called loose coupling....
+
+		class BluDart{
+			
+			void supply();
+		}
+
+
+		class Flipkart extends BlueDart
+		{
+			courier(){}
+		}
+		
+		
+cohasion
+
+		BANK{
+
+			withdreaw()
+
+			deposit();
+
+
+				secr()
+				 loans(); 
+				
+
+			
+		}
+
+low cohasion
+
+high cohison
+
+loosely coupled and highly cohaisve class
+:--------------------------------------------------------------:
+HOW TO GIVE RESPONSE ON BROWSER
+
+1)create servlet
+2)set CONTENT TYPE 
+3)create an obejct of PrintWriter
+
+09/11/2022
+Will get request from JSP PAGE -> to SERVLET --> and will send response to JSP page again....
+
+FORM -> in jsp -->
+
+
+employeeRegistraion.jsp  -->
+
+	--->
+
+employeeController -->
+	--->
+
+	you can have Data using request.getParameter("txtName")
+
+we fetch all Data from form
+
+	--> do some business logic  -->
+
+
+and return that data to employeeList.jsp file....
+
+
+	you can store Data in request object using reqest.setAttribute("alias name","value...")
+	to dispatch from controller to jsp you can use request.getRequestDispatcher("your jsp page name").forword("request","response")
+
+
+	we can print Data employeeList.jsp -->
+
+
+		you can have data which is in request obejct
+		you can use request.getAttribute("alias name")
+		and you can store data to your data type...
+		as request.getAttribute("alias name") method's return type is object you need to cast to your data type
+
+
+
