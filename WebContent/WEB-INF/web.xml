@@ -236,4 +236,24 @@
     <servlet-name>JstlDemo</servlet-name>
     <url-pattern>/JstlDemo</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CookieDEmo</display-name>
+    <servlet-name>CookieDEmo</servlet-name>
+    <servlet-class>com.servelts.CookieDEmo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieDEmo</servlet-name>
+    <url-pattern>/cookiedemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FetchCookie</display-name>
+    <servlet-name>FetchCookie</servlet-name>
+    <servlet-class>com.servelts.FetchCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FetchCookie</servlet-name>
+    <url-pattern>/fetchcookie</url-pattern>
+  </servlet-mapping>
 </web-app>
